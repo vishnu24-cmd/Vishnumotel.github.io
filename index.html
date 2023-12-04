@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Motel Booking</title>
+</head>
+<body>
+    <header>
+        <!-- Navigation Bar -->
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Rooms</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Background Image and Text Description -->
+    <section class="hero">
+        <h1>Welcome to our Motel</h1>
+        <p>Discover comfortable rooms at affordable prices.</p>
+    </section>
+
+    <!-- Search and Sorting Filters -->
+    <section class="filters">
+        <label for="room-type">Room Type:</label>
+        <select id="room-type">
+            <option value="single">Single</option>
+            <option value="double">Double</option>
+            <!-- Add more options as needed -->
+        </select>
+
+        <label for="price-range">Price Range:</label>
+        <input type="range" id="price-range" min="50" max="200" step="10" value="100">
+    </section>
+
+    <!-- Room Listings -->
+    <section class="room-listings">
+        <!-- Dynamically generate room listings using JavaScript -->
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Motel Booking. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
